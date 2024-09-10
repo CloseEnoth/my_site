@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:1.27.1-alpine3.20-slim
 
 COPY . /var/www/html/
 
